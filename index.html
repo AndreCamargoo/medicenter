@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicenter</title>
+
+    <link rel="stylesheet" href="assets/css/tempate.css" />
+
+    <script>
+        window.onload = function() {
+            document.querySelector('.menuMobile').addEventListener('click', function() {
+                if (document.querySelector('.menu nav ul').style.display == 'flex') {
+                    document.querySelector('.menu nav ul').style.display = 'none'
+                } else {
+                    document.querySelector('.menu nav ul').style.display = 'flex'
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/img/logo.png" alt="logo" title="logo" />
+                </a>
+            </div>
+
+            <div class="menu">
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Produtos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">
+                        Emergency case
+                    </div>
+                    <div class="banner_description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam illum atque est aut et ea omnis tempora eum consectetur asperiores recusandae quia dolores vero excepturi voluptatum, dignissimos, iure sit.
+                    </div>
+                    <a href="javascript:void(0)" title="Read more" rel="noopener noreferrer">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">
+                        Doctirs Timetable
+                    </div>
+                    <div class="banner_description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam illum atque est aut et ea omnis tempora eum consectetur asperiores recusandae quia dolores vero excepturi voluptatum, dignissimos, iure sit.
+                    </div>
+                    <a href="javascript:void(0)" title="Read more" rel="noopener noreferrer">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_line">
+                        <div class="banner_day">Monday - Friday</div>
+                        <div class="banner_hour">08:00 - 17:00</div>
+                    </div>
+
+                    <div class="banner_line">
+                        <div class="banner_day">Saturday</div>
+                        <div class="banner_hour">09:30 - 17:30</div>
+                    </div>
+
+                    <div class="banner_line">
+                        <div class="banner_day">Sunday</div>
+                        <div class="banner_hour">09:30 - 15:00</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                    <div class="widget_body flex">
+
+                        <article>
+                            <a href="javascript:void(0)" title="Read more">
+                                <div class="news_data">
+                                    <div class="news_postd_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/img/doutor.webp" alt="doutor" title="doutor" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur doloribus obcaecati impedit animi dolorem numquam nesciunt porro itaque illo nobis aliquam, libero nostrum iure nam repudiandae explicabo maiores ut!
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="javascript:void(0)" title="Read more">
+                                <div class="news_data">
+                                    <div class="news_postd_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/img/doutor.webp" alt="doutor" title="doutor" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur doloribus obcaecati impedit animi dolorem numquam nesciunt porro itaque illo nobis aliquam, libero nostrum iure nam repudiandae explicabo maiores ut!
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="javascript:void(0)" title="Read more">
+                                <div class="news_data">
+                                    <div class="news_postd_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/img/doutor.webp" alt="doutor" title="doutor" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur doloribus obcaecati impedit animi dolorem numquam nesciunt porro itaque illo nobis aliquam, libero nostrum iure nam repudiandae explicabo maiores ut!
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="javascript:void(0)" title="Read more">
+                                <div class="news_data">
+                                    <div class="news_postd_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/img/doutor.webp" alt="doutor" title="doutor" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur doloribus obcaecati impedit animi dolorem numquam nesciunt porro itaque illo nobis aliquam, libero nostrum iure nam repudiandae explicabo maiores ut!
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departaments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                    <div class="widget_body">
+
+                        <div class="departaments">
+                            <div class="departaments_thumbnail">
+                                <img src="assets/img/doutora.jpeg" alt="doutora" title="doutora" />
+                            </div>
+                            <div class="departaments_post">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum itaque quis, quam dolor praesentium necessitatibus magni iste laudantium blanditiis saepe facere tenetur quia?
+                            </div>
+                        </div>
+
+                        <div class="read_more">
+                            <a href="javascript:void(0)" title="Read more" rel="noopener noreferrer">Read more</a>
+                        </div>
+
+                        <div class="departaments_categorie">
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Pediatric Clinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Outpatient Surgery
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Gynaecological clinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Cardiac cinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Laryngological clinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Ophthalmilogy clinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Dental clinic
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+
+                            <div class="departaments_description">
+                                <a href="javascript:void(0)" title="link-example">
+                                    <div class="departaments_link">
+                                        Outpatient rehabilitation
+                                    </div>
+                                    <div class="departaments_icon">+</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make an Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                    <div class="widget_body">
+                        <div class="appointment">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, fugit perferendis?</p>
+
+                            <div class="appointment_categorie">
+                                <div class="appointment_thumbnail">
+                                    <img src="assets/img/phone.png" alt="phone" title="phone" />
+                                </div>
+                                <div class="appointment_description">
+                                    <a href="javascript:void(0)">
+                                        by phone 1-800-643-4300
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="appointment_categorie">
+                                <div class="appointment_thumbnail">
+                                    <img src="assets/img/email.png" alt="email" title="email" />
+                                </div>
+                                <div class="appointment_description">
+                                    <a href="javascript:void(0)">
+                                        by e-mail medicenter@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="appointment_categorie">
+                                <div class="appointment_thumbnail">
+                                    <img src="assets/img/formulario.png" alt="form" title="form" />
+                                </div>
+                                <div class="appointment_description">
+                                    <a href="javascript:void(0)">
+                                        or fill in the form on our contact page
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container column">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <div class="fm_title">
+                        Health insurance
+                    </div>
+                    <div class="fm_link">
+                        <a href="javascript:void(0)" title="Read more">Lorem ipsum dolor sit amet</a>
+                    </div>
+                </div>
+                <div class="fm_2">
+                    <div class="fm_title">
+                        Medical records
+                    </div>
+                    <div class="fm_link">
+                        <a href="javascript:void(0)" title="Read more">Lorem ipsum dolor sit amet</a>
+                    </div>
+                </div>
+                <div class="fm_3">
+                    <div class="fm_title">
+                        Online bill pay
+                    </div>
+                    <div class="fm_link">
+                        <a href="javascript:void(0)" title="Read more">Lorem ipsum dolor sit amet</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+                        <div class="widget_body">
+                            <div class="bc1">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos quibusdam voluptas et?
+                                </p>
+
+                                <div class="info_company">
+                                    <div class="info">Farlane Street 333</div>
+                                    <div class="info">Fisherman's Wharf</div>
+                                    <div class="info">São Francisco / Califórnia</div>
+                                </div>
+
+                                <div class="social">
+                                    <div class="social_thumbnail">
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <img src="assets/img/facebook.png" alt="facebook" title="facebook" />
+                                        </a>
+                                    </div>
+                                    <div class="social_thumbnail">
+                                        <a href="https://www.instagram.com/">
+                                            <img src="assets/img/instagram.png" alt="Instagram" title="Instagram" />
+                                        </a>
+                                    </div>
+                                    <div class="social_thumbnail">
+                                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank">
+                                            <img src="assets//img/twitter.png" alt="Twitter" title="Twitter" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+                        <div class="widget_body">
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="post">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+                        <div class="widget_body">
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="Tweet">
+                                    @name Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="Tweet">
+                                    @name Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                            <div class="footer_posts">
+                                <a href="javascript:void(0)" title="Tweet">
+                                    @name Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <br>
+                                    <span>9 months ago</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados - <a href="https://themeforest.net/user/quanticalabs?gclid=CjwKCAjwjZmTBhB4EiwAynRmD0X_Rm5Xs4nVysVxhcQWVdB7OPDFfJOByOB71KlTd_hgl2zB8DnvaBoCKuAQAvD_BwE" target="_blak">Quanticalabs</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
