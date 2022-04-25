@@ -11,5 +11,5 @@ Todos os direitos reservados a [Quanticalabs](https://themeforest.net/user/quant
    $ git clone https://github.com/AndreCamargoo/medicenter.git
 
    ```
-   $ cd /Desktop
+   $ cd /Desktop  
    $ git clone clone https://github.com/AndreCamargoo/medicenter.git
