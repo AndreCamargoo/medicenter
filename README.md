@@ -10,6 +10,7 @@ Todos os direitos reservados a [Quanticalabs](https://themeforest.net/user/quant
    $ cd ~/webroot
    $ git clone https://github.com/AndreCamargoo/medicenter.git
 
-   ```
    $ cd /Desktop  
    $ git clone clone https://github.com/AndreCamargoo/medicenter.git
+
+   
